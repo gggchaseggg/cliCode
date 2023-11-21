@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538906760519",
+    "project_id": "clicode-d2ef3",
+    "storage_bucket": "clicode-d2ef3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538906760519:android:3aa01cf3b94d0875e06862",
+        "android_client_info": {
+          "package_name": "com.clicode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRydnogl2LTnVP_MbXtx4iz9VDdP8lYFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
