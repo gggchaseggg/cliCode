@@ -1,8 +1,12 @@
 import {Button, View} from 'react-native'
+import firestore from '@react-native-firebase/firestore'
 
 const TestBase = () => {
   const onCLick = () => {
-    console.log(123)
+    firestore().collection('testData').add({
+      name: 'daniil',
+      data: new Date().toISOString()
+    })
   }
 
   return (
@@ -13,7 +17,7 @@ const TestBase = () => {
         justifyContent: 'center',
         height: '100%',
       }}>
-      <Button title={'Тест базы'} onPress={onCLick} />
+      <Button title={'Тест базы'} onPress={onCLick}/>
     </View>
   )
 }
