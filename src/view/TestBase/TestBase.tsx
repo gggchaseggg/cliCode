@@ -1,12 +1,14 @@
 import {Button, View} from 'react-native'
 import firestore from '@react-native-firebase/firestore'
+import {GoogleSignIn} from '../../components'
 
 const TestBase = () => {
   const onCLick = () => {
-    firestore().collection('testData').add({
-      name: 'daniil',
-      data: new Date().toISOString()
-    })
+    console.log('Click Button')
+    // firestore().collection('testData').add({
+    //   name: 'daniil',
+    //   data: new Date().toISOString()
+    // })
   }
 
   return (
@@ -17,7 +19,8 @@ const TestBase = () => {
         justifyContent: 'center',
         height: '100%',
       }}>
-      <Button title={'Тест базы'} onPress={onCLick}/>
+      <Button title={'Тест базы'} onPress={onCLick} />
+      <GoogleSignIn />
     </View>
   )
 }

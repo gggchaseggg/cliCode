@@ -12,7 +12,20 @@
           "package_name": "com.clicode"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "538906760519-aj0pp1q28dnrq280s51fa06o0n43elni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clicode",
+            "certificate_hash": "ac50be0cab9ec6aeaefe68ae852b42eb35b4f0ad"
+          }
+        },
+        {
+          "client_id": "538906760519-4rabcf9ilsgfqglg8stf513j39jeamal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBRydnogl2LTnVP_MbXtx4iz9VDdP8lYFk"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538906760519-4rabcf9ilsgfqglg8stf513j39jeamal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
