@@ -1,5 +1,4 @@
 import {Button, View} from 'react-native'
-import firestore from '@react-native-firebase/firestore'
 import {GoogleSignIn} from '../../components'
 
 const TestBase = () => {

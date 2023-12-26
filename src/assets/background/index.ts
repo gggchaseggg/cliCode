@@ -1,0 +1,5 @@
+export const Level_1 = require('./level-1.jpeg')
+export const Coin = require('./coin.png')
+export const Setting = require('./settings.png')
+export const Upload = require('./upload.png')
+export const Download = require('./download.png')

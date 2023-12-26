@@ -1,0 +1,66 @@
+import {StyleSheet} from 'react-native'
+
+export const style = StyleSheet.create({
+  container: {
+    backgroundColor: '#603C33',
+    borderRadius: 4,
+    marginTop: 5,
+    marginHorizontal: 5,
+    padding: 4,
+    borderColor: '#804030',
+    borderStyle: 'solid',
+    borderWidth: 2,
+  },
+  infoContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  level: {
+    aspectRatio: 1 / 1,
+    width: 50,
+    lineHeight: 39,
+    backgroundColor: '#6e5007',
+    color: '#000000',
+    borderColor: 'black',
+    borderRadius: 8,
+    borderWidth: 2,
+    borderStyle: 'solid',
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    fontSize: 32,
+    fontWeight: '900',
+    marginRight: 10,
+    textShadowRadius: 15,
+    textShadowColor: '#ffff4a',
+    textShadowOffset: {width: 0, height: 0},
+  },
+  textContainer: {
+    width: '65%',
+  },
+  title: {
+    color: '#10870c',
+    fontWeight: '900',
+    fontSize: 18,
+  },
+  description: {
+    fontSize: 11,
+  },
+  button: {
+    backgroundColor: '#d0af12',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '17%',
+    height: 35,
+    borderRadius: 8,
+    borderColor: '#FFFFFF',
+    borderStyle: 'solid',
+    borderWidth: 2,
+  },
+  costText: {
+    color: '#ffffff',
+    fontWeight: '900',
+  },
+})
